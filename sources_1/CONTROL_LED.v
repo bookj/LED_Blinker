@@ -15,7 +15,7 @@ module CONTROL_LED(
     //     Q = i_input;
     // end
     
-    assign o_LED[0] = Q;
-    assign o_LED[1] = ~Q;
+    assign o_LED[0] = i_input;
+    assign o_LED[1] = ~i_input;
     
 endmodule
