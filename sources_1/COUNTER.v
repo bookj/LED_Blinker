@@ -11,10 +11,10 @@ module COUNTER(
     
     reg [15:0] counter;
         
-    initial
-    begin
-        counter = 0;
-    end
+    // initial
+    // begin
+    //     counter = 0;
+    // end
     
     always @(posedge i_CLK or negedge i_EN)
     begin
