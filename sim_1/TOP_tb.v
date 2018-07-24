@@ -13,9 +13,8 @@ module TOP_tb();
     initial
     begin
         #0      r_CLK = 1'b0;
-                r_EN = 1'b1;
-//                r_EN = 1'b0;
-//        #100    r_EN = 1'b1;
+                r_EN = 1'b0;
+        #10     r_EN = 1'b1;
     end
     
     always
